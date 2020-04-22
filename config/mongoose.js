@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/codeial_development',{
     useNewUrlParser:true,
     useUnifiedTopology: true,
-    useCreateIndex: true
+    useCreateIndex:true
 });
 
 const db = mongoose.connection;

@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "Ionicons";
+    src: url("../fonts/ionicons.eot?v=2.0.0");
+    src: url("../fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("../fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("../fonts/ionicons.woff?v=2.0.0") format("woff"), url("../fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ion, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before,
+.ion-navicon-round:before,.ion-ios-cart-outline:before,
+.ion-close-round:before,.ion-social-facebook:before,
+.ion-social-twitter:before,.ion-social-googleplus:before,
+ .ion-social-instagram:before,.ion-ios-star:before,
+ .ion-ios-person:before ,.ion-ios-plus-outline:before,
+ .ion-ios-checkmark-outline:before,.ion-ios-stopwatch-outline:before,.ion-ios-infinite-outline:before,
+ .ion-ios-person-outline:before,.ion-log-out:before,.ion-log-in:before,.ion-ios-person-outline:before,
+ .ion-android-mail:before,.ion-android-lock:before,.ion-ios-contact-outline:before {
+    display: inline-block;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+    .ion-navicon-round:before {
+    content: "\f20d"}
+    .ion-ios-cart-outline:before {
+    content: "\f3f7"}
+    .ion-close-round:before {
+    content: "\f129"}
+    .ion-social-facebook:before {
+    content: "\f231"}
+    .ion-social-twitter:before {
+    content: "\f243"}
+    .ion-social-googleplus:before {
+    content: "\f235"}
+    .ion-social-instagram:before {
+    content: "\f351"}
+    .ion-ios-star:before {
+    content: "\f4b3"}
+    .ion-ios-person:before {
+    content: "\f47e"}
+    .ion-ios-plus-outline:before {
+    content: "\f48a"}
+    .ion-ios-checkmark-outline:before {
+    content: "\f3fe"}
+    .ion-ios-stopwatch-outline:before {
+    content: "\f4b4"}
+    .ion-ios-infinite-outline:before {
+    content: "\f449"}
+    .ion-ios-person-outline:before {
+        content: "\f47d"}
+    .ion-log-in:before {
+        content: "\f29e"}
+    .ion-log-out:before {
+        content: "\f29f"}
+    .ion-ios-person-outline:before {
+        content: "\f47d"}
+    .ion-android-mail:before {
+        content: "\f2eb"}
+    .ion-android-lock:before {
+        content: "\f392"}
+    .ion-ios-contact-outline:before {
+        content: "\f419"}

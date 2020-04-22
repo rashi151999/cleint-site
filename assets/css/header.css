@@ -1,19 +1,227 @@
-#layout-header nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px;
-    background: #2196f3;
-    color: white;
-    box-shadow: 1px 1px 1px 1px lightgrey; }
-    #layout-header nav .mini-logo p {
-      margin: 5px;
-      font-size: 1.4rem;
-      font-weight: bold; }
-    #layout-header nav .auth-links ul {
-      margin: 5% 5px;
-      display: flex; }
-      #layout-header nav .auth-links ul li {
-        margin-right: 10px; }
-    #layout-header nav a {
-      color: white;
-      text-decoration: none; }
+/* ----------------------------------------------- */
+/* HEADER */
+/* ----------------------------------------------- */
+
+.header-home{
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header/ckt.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/header/ckt.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+header {
+    overflow: hidden;
+}
+
+header nav .row{
+    max-width: 1340px;
+}
+
+.hero-text-box {
+    position: relative;
+    width: 1140px;
+    top: 40%;
+    left: 50%;
+    border:1px solid transparent;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    opacity: 0.7;
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-top: 65px;;
+}
+
+.logo-black { 
+    display: none;
+    width: 100px;
+    height: auto;
+    float: left;
+    margin: 7px 0;
+}
+.cart-icon{
+    font-size: 250%;
+}
+/* Main navi */
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 38px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.2s;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
+}
+
+
+/* Mobile navi */
+.mobile-nav-icon {
+    position: relative;
+    top:0;
+    right: 0;
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 11111;
+}
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: #fff;
+}
+
+
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 2px 2px #efefef;
+    z-index: 9999;
+}
+
+.sticky .main-nav { margin-top: 18px; }
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .logo { display: none; }
+.sticky .logo-black {
+    display: block;
+    margin-top: 22px;
+}
+.sticky .main-area{
+padding-bottom: 11px;
+  
+}
+
+.sticky .dropdown-content{
+    background-color: #fff;
+    top:38px;
+}
+.sticky .main-nav .dropdown-content{
+    background-color: #fff;
+}
+.sticky .main-nav h3{
+    color: #555;
+}
+.sticky .cross-dropdown{
+    color: #000000;
+    position: relative;
+  
+}
+/* ----------------------------------------------- */
+/* MEGA MENU */
+/* ----------------------------------------------- */
+
+/*
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+*/
+.dropdown-content {
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.main-nav .dropdown-content {
+  margin-top: 10px;
+  position: absolute;
+    background-color: #000000;
+  width: 68VW;
+  LEFt: -25%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  -webkit-transition: opacity 1s, visibility 1s, overflow 0.5s;
+  transition: opacity 1s, visibility 1s, overflow 1s;
+}
+.main-nav .dropdown-content-product{
+    left:-120%;
+}
+
+.display{
+    opacity: 1;
+    visibility: visible;
+    overflow: visible;
+}
+
+/* Create three equal columns that floats next to each other */
+.main-nav .column {
+  float: left;
+  width: 33.3%;
+  padding: 20px; 
+    opacity: 0.9;
+  height: 250px;
+    display: block;
+}
+.main-nav .column-d{
+  float: left;
+  width:5%;
+  padding: 20px; 
+  opacity: 0.9;
+  height: 250px;
+  display: block;
+    float: right;
+}
+
+.column a{
+  float: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  width:fit-content;
+}
+.main-nav h3{
+    color: #fff;
+}
+
+/*
+.main-nav .column a:hover {
+color: black;
+}
+*/
+
+/* Clear floats after the columns */
+.main-nav .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.cross-dropdown{
+    text-align: left;
+    position: relative;
+    color: #fff;
+    border-bottom: 0;
+}

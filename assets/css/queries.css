@@ -1,0 +1,321 @@
+@media only screen and (max-width:1380px) {
+    .main-nav li{
+        margin-left: 28px;
+    }
+   
+}
+@media only screen and (max-width:1260px) {
+    .main-nav li{
+        margin-left: 23px;
+    }
+   
+}
+
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1210px) {
+    nav .logo,nav .logo-black{
+        width: 80px;
+    }
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+      body { font-size: 19px; }
+    .row { padding: 0 1%; }
+    .main-nav li{
+        padding:4px;
+        margin-left: 13px;
+    }
+    
+
+}
+@media only screen and (max-width:1150px){
+    .main-nav li{
+        margin-left: 8px;
+    }
+   
+}
+@media only screen and (max-width:1092px){
+    .main-nav li{
+        margin-left: 3px;
+    }
+   
+}
+@media only screen and (max-width:1045px){
+    .main-nav li{
+        margin-left: 1px;
+    }
+   
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1026px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+     
+    
+    .main-nav { 
+        opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+
+    .mobile-nav-icon {display: inline-block;padding: 20px;}
+    
+    .hiden{
+           transition: 1s;
+          opacity: 0;
+        visibility: hidden;
+        overflow: hidden;
+    }
+    .actv{
+        transition: 1s;
+        opacity:1;
+        visibility: visible;
+        overflow: visible;
+
+
+    }
+    .main-nav {
+        position: absolute;
+        float: right;
+        top:-30px;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        margin-top: 30px;
+        margin-left: 25px;
+        z-index: 1111;
+    }
+    
+    .faded-area{
+         float: left;
+        width: 50%;
+        height: 100%;
+        background-color: #000000;
+        opacity:0.6;
+    } 
+    .main-area{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-color: #000000;
+         padding-top: 25px;
+         position: static;
+    }
+    .main-area ul{
+        overflow-y: scroll;
+        height: 100%;
+        position: static;
+    }
+    /*styling scroll bar*/
+    .main-area ul::-webkit-scrollbar {
+    width: 1em;
+  }
+  
+  .main-area ul::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+  
+  .main-area ul::-webkit-scrollbar-thumb {
+  background-color:darkgrey;
+  outline: 1px solid slategrey;
+  }
+    
+    .main-nav li {
+        display: block;
+        position: static;
+    }
+    
+    .main-nav li a{
+        box-sizing: border-box;
+        width: fit-content;
+        border-bottom: 2px solid transparent;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    
+    .main-nav li a:hover{
+     
+        border-bottom: 2px solid  ;
+           border-bottom-color: #e67e22;
+          -webkit-transition: border-bottom 0.2s;
+        transition: border-bottom 0.2s;
+    }
+    
+    .sticky .main-nav {
+        margin-top: 10px;
+        top:0px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited { padding: 10px 0; }
+    .sticky .mobile-nav-icon { margin-top: 10px; }
+    .sticky .mobile-nav-icon i { color: #555; }
+    .sticky .faded-area{
+        background-color: #fff;
+    }
+    .sticky .main-area{
+        background-color: #fff;
+    }
+    
+    
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+    .works-steps { margin-bottom: 40px; }
+    .works-step:last-of-type { margin-bottom: 60px; }
+    
+    .app-screen { width: 50%; }
+    
+    .icon-small { 
+        width: 17px;
+        margin-right: 5px;
+    }
+    
+    .city-feature { font-size: 90%; }
+    
+    .plan-box {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .plan-price { font-size: 250%; }
+    .contact-form { width: 80%; }
+    .dropdown .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-nav .dropdown-content {
+        position: absolute;
+        margin-top: 0;
+        left: 0;
+        top:0px;
+        overflow-y:scroll;
+        width: 50%;
+        height: 98vh;
+      
+    }
+    .main-nav .column {
+        float: left;
+        width: 85%;
+        opacity: 0.9;
+        display: block;
+        height: auto;
+        font-size: 90%;
+        padding: 10px;
+    }
+    .main-nav .column a{
+        padding-bottom: 10px;
+    }
+    .main-nav .column-d{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .main-nav .dropdown-content::-webkit-scrollbar {
+    width: 1em;
+    }
+
+    .main-nav .dropdown-content::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    }
+
+   .main-nav .dropdown-content::-webkit-scrollbar-thumb {
+      background-color: darkgrey;
+      outline: 1px solid slategrey;
+    }
+
+
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center; }
+    
+    .works-step div {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type { margin-bottom: 20px; }
+    
+    .section-plans row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    
+   .plan-box {
+    width: 70%;
+    margin:auto;
+     align-items: center; 
+       border-bottom: 150px;
+    }
+        .section-plans-white row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .section-plans-white .plan-box{
+        width: 70%;
+        margin: auto;
+        align-content: center;
+        border-bottom: 150px;
+    }
+    
+}
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+     body { font-size: 15px; }
+    section { padding: 25px 0; }
+    .contact-form {width: 100%; }
+    #formConatainer{
+        width: 97%;  
+    }
+}
+

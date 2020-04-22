@@ -1,8 +1,42 @@
-<h1>Sign Up</h1>
-<form action="/users/create" method="POST" >
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <input type="password" name="password" placeholder="password" required>
-    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-    <input type="submit" value="Sign Up">
-</form>
+<section class="section-start-recogniser section-login container-fluid">
+        <form action="/users/create" method="POST" class="row" id="formConatainer">
+            <div id="loginText"><h1>Sign up</h1></div> 
+            <div class="form-element">
+                <!-- <label for="name"><h3>Name</h3></label> -->
+                <input class="form-input" type="text" name="name" id="namw"  placeholder = "Your Name" required>
+            </div>
+            <div class="form-element">
+                <!-- <label for="email"><h3>Email</h3></label> -->
+                <input class="form-input" type="text" name="email" id="email"  placeholder = "your Email" required>
+            </div>
+            <div class="form-element">
+                <!-- <label for="password"><h3>Password</h3></label> -->
+                <input class="form-input" type="password" name="password" id="password" placeholder = "Password" required>
+            </div>
+            <div class="form-element">
+                <!-- <label for="password"><h3>Confirm Password</h3></label> -->
+                <input class="form-input" type="password" name="confirm_password" id="password" placeholder = "Confirm Password" required>
+            </div>
+            <div style="text-align: right !important;" class="form-element">
+                <input  type="submit" id="submit" class="loginHover submitButton" value="SIGN UP">
+            </div>
+            <div style="text-align: center;" class="social-login">
+                <P>LOGIN USING</P>
+                 <ul class="social social-circle">
+                    <li> <a href="#" class="icoFacebook"><i class="fa fa-facebook"></i></a></li>
+                    <li> <a href="#" class="icoTwitter"> <i class="fa fa-twitter"></i> </a> </li>
+                    <li> <a href="#" class="icoGoogle"> <i class="fa fa-google-plus"></i> </a> </li>
+                    <li> <a href="#" class="icoRss"> <i class="fa fa-youtube"></i> </a> </li>
+                </ul>
+            </div>
+            <div  style="text-align: center;">
+                <hr class="sign">
+                <a href="/users/sign-in">Log In?</a>
+            </diV>
+            <div id="errorMessage"></div>
+        </form>
+    </div>
+</section>
+        
+
+

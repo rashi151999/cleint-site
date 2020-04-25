@@ -178,5 +178,17 @@ a.myfooter .socialIcon:hover, .myfooter .socialHoverClass {
      -moz-transition-duration: 0.3s;
      -o-transition-duration: 0.3s;
  }
-        
-        
+/* .contact-container{
+	display: flex;
+	flex-direction: row;
+}*/
+.contact-div{
+	padding:0px 10px 10px 10px;
+	margin:0px 5px 5px 5px;
+	word-wrap: break-word;
+}
+/*
+.contact-div-2{
+	position: relative;
+	top:-70px;
+} */

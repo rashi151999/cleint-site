@@ -1,11 +1,194 @@
-#layout-footer {
-    color: white;
-    background: grey;
-    padding: 5px 10px;
-    display: flex;
-    justify-content: flex-start; }
-    #layout-footer a {
-      color: white;
-      text-decoration: none; }
-    #layout-footer .footer-nav ul {
-      list-style: none; }
+
+        
+.myfooter {
+    margin-top: 0;
+    padding: 50px 0 20px 0;
+    background-color: rgb(17, 28, 33);
+    color: #878c94;
+}
+        
+
+
+
+.myfooter .title-widget {
+	text-align: left;
+	color:#fff;
+	font-size: 25px;
+	font-weight: 300;
+	line-height: 1;
+	position: relative;
+	text-transform: uppercase;
+	font-family: 'Fjalla One', sans-serif;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 25px;
+	margin-left: 0;
+	padding-left: 28px;
+}
+
+.myfooter .title-widget::before {
+    background-color: #e67e22;
+    content: "";
+    height: 22px;
+    left: 0px;
+    position: absolute;
+    top: -2px;
+    width: 5px;
+}
+
+.myfooter .social-icon{padding:0px;margin:0px;}
+.myfooter .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.myfooter .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.myfooter .acount-icon .fa{margin-right:25px;}
+
+
+.myfooter .category a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    margin: 1px;
+    border-radius:4px;
+    margin-top: 6px;
+    background-color: black;
+    border: solid 1px #fff;
+}
+.myfooter ul {
+	font-size: 13px;
+	list-style-type: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-top: 15px;
+	color: #7F8C8D;
+}
+
+.myfooter  a:link, a:visited{
+    border-bottom: 0 solid transparent;
+}
+
+.myfooter .payment{margin:0px;padding:0px;list-style-type:none}
+.myfooter .payment li{list-style-type:none}
+.myfooter .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+ 
+	float: left;
+    font-size: 25px;
+    padding: 10px 10px;
+}
+
+.myfooter ul.social {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+.myfooter ul.social li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.myfooter .social a.icoRss:hover {
+	background-color: #ff0000 ;
+}
+.myfooter .social a.icoFacebook:hover {
+	background-color:#3B5998 ;
+}
+.myfooter .social a.icoTwitter:hover {
+	background-color:#33ccff ;
+}
+.myfooter .social a.icoGoogle:hover {
+	background-color:#BD3518 ;
+}
+
+.myfooter .social a.icoRss:hover i, .myfooter .social a.icoFacebook:hover i, .myfooter .social a.icoTwitter:hover i,
+.myfooter .social a.icoGoogle:hover i, .myfooter .social a.icoVimeo:hover i {
+	color:#fff;
+}
+a.myfooter .socialIcon:hover, .myfooter .socialHoverClass {
+	color:#44BCDD;
+}
+
+.myfooter .social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.myfooter .social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+
+.myfooter .social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+
+.myfooter-bottom {
+    text-align: center;
+    height: 90px;
+	background:#000000;
+	color: #ffffff;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.myfooter-bottom p.pull-left {
+    position: relative;
+     bottom: -20px;
+	padding-top: 6px;
+    font-size: medium;
+}
+.payments {
+    position: relative;
+     bottom: -20px;
+	font-size: 2em;	
+}
+/*  zooming class */
+
+
+.zoom:hover {
+    transform: scale(1.4);
+     -webkit-transform: scale(1.4);
+     -moz-transform: scale(1.4);
+     -o-transform: scale(1.4);
+ }
+.zoom {
+    transform: scale(1);
+     -webkit-transform: scale(1);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(1);
+     -o-transform: scale(1);
+     transition-duration: 0.3s;
+     -webkit-transition-duration: 0.3s;
+     -moz-transition-duration: 0.3s;
+     -o-transition-duration: 0.3s;
+ }
+/* .contact-container{
+	display: flex;
+	flex-direction: row;
+}*/
+.contact-div{
+	padding:0px 10px 10px 10px;
+	margin:0px 5px 5px 5px;
+	word-wrap: break-word;
+}
+/*
+.contact-div-2{
+	position: relative;
+	top:-70px;
+} */
